@@ -1,0 +1,25 @@
+.contenedor {
+  display: flex;
+  flex-direction: column; /* Alinea los elementos verticalmente */
+  min-height: 100vh; /* Asegura que el contenedor ocupe al menos el 100% de la altura de la pantalla */
+}
+
+header {
+  /* Estilos para el encabezado */
+  background-color: #f0f0f0; /* Ejemplo de color de fondo */
+  padding: 20px;
+}
+
+main {
+  /* Estilos para el contenido principal */
+  flex: 1; /* Permite que el contenido principal se expanda para llenar el espacio disponible */
+  padding: 20px;
+}
+
+footer {
+  /* Estilos para el pie de página */
+  background-color: #333; /* Ejemplo de color de fondo */
+  color: white; /* Ejemplo de color de texto */
+  padding: 20px;
+  text-align: center;
+}

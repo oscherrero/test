@@ -18,9 +18,13 @@ main {
   /* Estilos para el contenido principal */
   flex: 1; /* Permite que el contenido principal se expanda para llenar el espacio disponible */
   padding: 20px;
+  border: 10px solid greenyellow;
 }
 
 footer {
+  position:sticky;
+  bottom:0;
+  
   height: 6vw;
   /* Estilos para el pie de página */
   background-color: #421dc6; /* Ejemplo de color de fondo */

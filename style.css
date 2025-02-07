@@ -13,14 +13,12 @@ header {
   position:sticky;
   top:0;
   background-color:rgb(128, 0, 128); /* Ejemplo de color de fondo */
-  padding: 20px;
   height: 6vw;
 }
 
 main {
   /* Estilos para el contenido principal */
   flex: 1; /* Permite que el contenido principal se expanda para llenar el espacio disponible */
-  padding: 20px;
   border: 10px solid greenyellow;
 }
 
@@ -32,7 +30,6 @@ footer {
   /* Estilos para el pie de página */
   background-color: #421dc6; /* Ejemplo de color de fondo */
   color: white; /* Ejemplo de color de texto */
-  padding: 20px;
   text-align: center;
 }
 

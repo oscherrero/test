@@ -11,7 +11,7 @@ header {
   /* Estilos para el encabezado */
   position:sticky;
   top:0;
-  background-color:green; /* Ejemplo de color de fondo */
+  background-color:rgb(128, 0, 128); /* Ejemplo de color de fondo */
   padding: 20px;
   height: 6vw;
 }

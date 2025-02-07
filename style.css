@@ -10,7 +10,7 @@
 
 header {
   /* Estilos para el encabezado */
-  position:sticky;
+  position:fixed;
   top:0;
   background-color:rgb(128, 0, 128); /* Ejemplo de color de fondo */
   height: 6vw;
@@ -23,18 +23,7 @@ main {
 }
 
 footer {
-  position:sticky;
-  bottom:0;
-  
-  height: 6vw;
-  /* Estilos para el pie de página */
-  background-color: #421dc6; /* Ejemplo de color de fondo */
-  color: white; /* Ejemplo de color de texto */
-  text-align: center;
-}
-
-footer {
-  position:sticky;
+  position:fixed;
   bottom:0;
   
   height: 6vw;

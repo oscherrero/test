@@ -9,7 +9,7 @@
 
 header {
   /* Estilos para el encabezado */
-  background-color:red; /* Ejemplo de color de fondo */
+  background-color:green; /* Ejemplo de color de fondo */
   padding: 20px;
   height: 6vw;
 }
@@ -21,6 +21,9 @@ main {
 }
 
 footer {
+  position:sticky;
+  bottom:0;
+  
   height: 6vw;
   /* Estilos para el pie de página */
   background-color: #421dc6; /* Ejemplo de color de fondo */

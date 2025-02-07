@@ -1,3 +1,6 @@
+
+*{  box-sizing: border-box;}
+
 .contenedor {
   display: flex;
   flex-direction: column; /* Alinea los elementos verticalmente */

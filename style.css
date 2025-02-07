@@ -5,8 +5,8 @@
   display: flex;
   flex-direction: column; /* Alinea los elementos verticalmente */
   min-height: 100vh; /* Asegura que el contenedor ocupe al menos el 100% de la altura de la pantalla */
-  border: 10px solid rgb(255, 123, 0);
-}
+  border: 10px solid rgb(239, 121, 10);
+ }
 
 header {
   /* Estilos para el encabezado */

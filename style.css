@@ -21,9 +21,6 @@ main {
 }
 
 footer {
-  position:sticky;
-  bottom:0;
-  
   height: 6vw;
   /* Estilos para el pie de página */
   background-color: #421dc6; /* Ejemplo de color de fondo */

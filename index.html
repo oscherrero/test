@@ -1,19 +1,67 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
+
 <head>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>test Flexbox</title>
-  <link rel="stylesheet" href="/test/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plantilla con Bootstrap</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh; /* Para que el footer se ajuste a la pantalla */
+            margin: 0; /* Elimina márgenes predeterminados del body */
+        }
+
+        header {
+            height: 15vh;
+            /* Otras propiedades de estilo para el header */
+            background-color: #f0f0f0;
+            padding: 20px;
+        }
+
+        main {
+            flex: 1; /* Para que el contenido principal ocupe el espacio restante */
+            /* Otras propiedades de estilo para el main */
+            padding: 20px;
+        }
+
+        footer {
+            /* Otras propiedades de estilo para el footer */
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+
+        /* Estilos específicos para Android */
+        @media (max-height: 600px) { /* Ajusta este valor según tus necesidades */
+            footer {
+                position: fixed; /* Fija el footer en la parte inferior */
+                bottom: 0;
+                width: 100%;
+            }
+        }
+    </style>
 </head>
-<body  class="contenedor">
-    <header> 
-      </header>
-    <main> 
-      </main>
-    <footer> 
-      </footer>
+
+<body>
+    <header>
+        <h1>Mi Encabezado</h1>
+    </header>
+
+    <main>
+        <p>Este es el contenido principal de mi página.</p>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Mi Empresa</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
-<script>
-  window.scrollBy(0, 100000);
-</script>
+
 </html>

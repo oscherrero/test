@@ -3,7 +3,7 @@
 margin:0;
 padding:0}
 
-.contenedor {
+.contenedorXX {
   display: flex;
   flex-direction: column; /* Alinea los elementos verticalmente */
   height: 100vh; /* Asegura que el contenedor ocupe al menos el 100% de la altura de la pantalla */
@@ -12,20 +12,20 @@ padding:0}
 
 header {
   /* Estilos para el encabezado */
-  position:sticky;
+  position:fixed;
   top:0;
   background-color:rgb(128, 0, 128); /* Ejemplo de color de fondo */
   height: 20vh;
 }
 
-main {
+mainXX {
   /* Estilos para el contenido principal */
   flex: 1; /* Permite que el contenido principal se expanda para llenar el espacio disponible */
   border: 10px solid rgb(25, 184, 205);
 }
 
 footer {
-  position:sticky;
+  position:fixed;
   bottom:0;
   
   height: 20vh;

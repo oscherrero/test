@@ -3,7 +3,7 @@
 margin:0;
 padding:0}
 
-.contenedor {
+.contenedorXX {
   display: flex;
   flex-direction: column; /* Alinea los elementos verticalmente */
   height: 100vh; /* Asegura que el contenedor ocupe al menos el 100% de la altura de la pantalla */
@@ -15,7 +15,7 @@ header {
   position:sticky;
   top:0;
   background-color:rgb(128, 0, 128); /* Ejemplo de color de fondo */
-  height: 6vw;
+  height: 20vh;
 }
 
 main {
@@ -28,7 +28,7 @@ footer {
   position:sticky;
   bottom:0;
   
-  height: 6vw;
+  height: 20vh;
   /* Estilos para el pie de página */
   background-color: #421dc6; /* Ejemplo de color de fondo */
   color: white; /* Ejemplo de color de texto */

@@ -3,7 +3,7 @@
 margin:0;
 padding:0}
 
-.contenedorXX {
+.contenedor {
   display: flex;
   flex-direction: column; /* Alinea los elementos verticalmente */
   height: 100vh; /* Asegura que el contenedor ocupe al menos el 100% de la altura de la pantalla */
@@ -20,7 +20,7 @@ header {
 
 main {
   /* Estilos para el contenido principal */
-  /*vflex: 1; /* Permite que el contenido principal se expanda para llenar el espacio disponible */
+  flex: 1; /* Permite que el contenido principal se expanda para llenar el espacio disponible */
   border: 10px solid cyan);
 }
 

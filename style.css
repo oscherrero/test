@@ -12,7 +12,7 @@ padding:0}
 
 header {
   /* Estilos para el encabezado */
-  position:fixed;
+  position:sticky;
   top:0;
   background-color:red; /* Ejemplo de color de fondo */
   height: 20vh;
@@ -25,7 +25,7 @@ main {
 }
 
 footer {
-  position:fixed;
+  position:sticky;
   bottom:0;
   
   height: 20vh;

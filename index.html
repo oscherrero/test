@@ -52,10 +52,19 @@
     </main>
 
     <footer>
-        <p>&copy; 2023 Mi Empresa</p>
+        <p>&copy; 2025 Mi Empresa</p>
     </footer>
 
 
 </body>
+
+    <script>
+        window.addEventListener('scroll', function() {
+  if (window.scrollY > 0) {
+    header.classList.add('fixed');
+  } else {
+    header.classList.remove('fixed');
+  }
+});</script>
 
 </html>

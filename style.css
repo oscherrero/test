@@ -18,9 +18,9 @@ header {
   height: 20vh;
 }
 
-mainXX {
+main {
   /* Estilos para el contenido principal */
-  flex: 1; /* Permite que el contenido principal se expanda para llenar el espacio disponible */
+  /*vflex: 1; /* Permite que el contenido principal se expanda para llenar el espacio disponible */
   border: 10px solid rgb(25, 184, 205);
 }
 

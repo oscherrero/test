@@ -14,14 +14,14 @@ header {
   /* Estilos para el encabezado */
   position:fixed;
   top:0;
-  background-color:rgb(128, 0, 128); /* Ejemplo de color de fondo */
+  background-color:red; /* Ejemplo de color de fondo */
   height: 20vh;
 }
 
 main {
   /* Estilos para el contenido principal */
   /*vflex: 1; /* Permite que el contenido principal se expanda para llenar el espacio disponible */
-  border: 10px solid rgb(25, 184, 205);
+  border: 10px solid cyan);
 }
 
 footer {
@@ -30,7 +30,7 @@ footer {
   
   height: 20vh;
   /* Estilos para el pie de página */
-  background-color: #421dc6; /* Ejemplo de color de fondo */
+  background-color:green; /* Ejemplo de color de fondo */
   color: white; /* Ejemplo de color de texto */
   text-align: center;
 }

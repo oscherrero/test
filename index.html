@@ -22,26 +22,22 @@
         }
 
         main {
+                        
             flex: 1; /* Para que el contenido principal ocupe el espacio restante */
             /* Otras propiedades de estilo para el main */
             padding: 20px;
         }
 
         footer {
-            /* Otras propiedades de estilo para el footer */
+            height: 15vh;
             background-color: #333;
             color: white;
             padding: 10px;
             text-align: center;
-        }
 
-        /* Estilos específicos para Android */
-        @media (max-height: 600px) { /* Ajusta este valor según tus necesidades */
-            footer {
                 position: fixed; /* Fija el footer en la parte inferior */
                 bottom: 0;
                 width: 100%;
-            }
         }
     </style>
 </head>

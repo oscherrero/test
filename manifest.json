@@ -1,18 +1,18 @@
 {
   "name": "test PWA",
   "short_name": "miTest",
-  "start_url": "/",
+  "start_url": "https://oscherrero.github.io/test",
   "display": "fullscreen",  
   "theme_color": "#000000",
   "background_color": "#ffffff",
   "icons": [
     {
-      "src": "/se_logo_192x192.png",
+      "src": "https://oscherrero.github.io/test/se_logo_192x192.png",
       "sizes": "192x192",
       "type": "image/png"
     },     
     {
-      "src": "/se_logo_64x64.png",
+      "src": "https://oscherrero.github.io/test/se_logo_64x64.png",
       "sizes": "64x64",
       "type": "image/png"
     }

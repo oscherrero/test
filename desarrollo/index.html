@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="manifest" href="/test/manifest.json">
+
+    <title>Plantilla con Bootstrap</title>
+   
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh; /* Para que el footer se ajuste a la pantalla */
+            margin: 0; /* Elimina márgenes predeterminados del body */
+        }
+
+        header {
+            height: 15vh;
+            /* Otras propiedades de estilo para el header */
+            background-color: #f0f0f0;
+            padding: 20px;
+        }
+
+        main {
+                        
+            flex: 1; /* Para que el contenido principal ocupe el espacio restante */
+            /* Otras propiedades de estilo para el main */
+            padding: 20px;
+        }
+
+        footer {
+            height: 15vh;
+            background-color: #333;
+
+            padding: 10px;
+            text-align: center;
+                position: fixed; /* Fija el footer en la parte inferior */
+                bottom: 0;
+                width: 100%;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1 id="titulo">Mi Encabezado</h1>
+    </header>
+
+    <main>
+        <p>SUSCRIPCION.</p>
+      <div class='onesignal-customlink-container'></div>
+    </main>
+
+    <footer>
+        <p>2025 Mi Empresa</p>
+    </footer>
+
+
+</body>
+
+    <script>
+        window.onload=init()
+        
+        function init() {
+            const urlParams = new URLSearchParams(window.location.search);
+            var chistes = urlParams.get('chistes');
+
+            if (chistes) {
+                localStorage.setItem('chistes', chistes);
+            } else {
+                chistes =localStorage.getItem('chistes');
+            }
+            
+            const titulo=document.getElementById('titulo');
+            titulo.innerHTML = chistes;
+        }
+    
+    </script>
+
+</html>
+

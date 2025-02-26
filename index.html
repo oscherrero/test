@@ -67,9 +67,8 @@
         function init() {
             const urlParams = new URLSearchParams(window.location.search);
             const chistes = urlParams.get('chistes');
-        
-            console.log(nombre); // Juan
-            console.log(edad); // 2
+            const titulo=document.getElementById("titulo")
+            titulo.innerHTML = chistes
         }
     
     </script>

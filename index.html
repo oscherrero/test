@@ -62,12 +62,15 @@
 </body>
 
     <script>
-        const urlParams = new URLSearchParams(window.location.search);
-        const nombre = urlParams.get('nombre');
-        const edad = urlParams.get('edad');
+        window.onload=init()
         
-        console.log(nombre); // Juan
-        console.log(edad); // 25
+        function init() {
+            const urlParams = new URLSearchParams(window.location.search);
+            const chistes = urlParams.get('chistes');
+        
+            console.log(nombre); // Juan
+            console.log(edad); // 2
+        }
     
     </script>
 

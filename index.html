@@ -61,23 +61,6 @@
 
 </body>
 
-    <script>
-        window.onload=init()
-        
-        function init() {
-            const urlParams = new URLSearchParams(window.location.search);
-            var chistes = urlParams.get('chistes');
-
-            if (chistes) {
-                localStorage.setItem('chistes', chistes);
-            } else {
-                chistes =localStorage.getItem('chistes');
-            }
-            
-            const titulo=document.getElementById('titulo');
-            titulo.innerHTML = chistes;
-        }
-    
-    </script>
+ 
 
 </html>

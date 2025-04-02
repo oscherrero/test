@@ -1,36 +1,10 @@
-
-*{  box-sizing: border-box;
-margin:0;
-padding:0}
-
-.contenedor {
-  display: flex;
-  flex-direction: column; /* Alinea los elementos verticalmente */
-  height: 100vh; /* Asegura que el contenedor ocupe al menos el 100% de la altura de la pantalla */
-  border: 10px solid blue;
-}
-
-header {
-  /* Estilos para el encabezado */
-  position:sticky;
-  top:0;
-  background-color:red; /* Ejemplo de color de fondo */
-  height: 20vh;
-}
-
-main {
-  /* Estilos para el contenido principal */
-  flex: 1; /* Permite que el contenido principal se expanda para llenar el espacio disponible */
-  border: 10px solid cyan;
-}
-
-footer {
-  position:sticky;
-  bottom:0;
-  
-  height: 20vh;
-  /* Estilos para el pie de página */
-  background-color:green; /* Ejemplo de color de fondo */
-  color: white; /* Ejemplo de color de texto */
+body {
+  font-family: sans-serif;
   text-align: center;
+  padding-top: 50px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
 }

@@ -1,10 +1,12 @@
 {
-  "name": "test PWA",
-  "short_name": "miTest",
-  "start_url": "https://oscherrero.github.io/test",
-  "display": "fullscreen",  
-  "theme_color": "#000000",
-  "background_color": "#ffffff",
+
+  {
+    "name": "PWA de Prueba FCM",
+    "short_name": "PWA FCM",
+    "start_url": ".",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "theme_color": "#000000",
   "icons": [
     {
       "src": "https://oscherrero.github.io/test/se_logo_192x192.png",

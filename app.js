@@ -7,19 +7,26 @@ const messaging = firebase.messaging();
 const solicitarPermisoBtn = document.getElementById('solicitarPermiso');
 
 solicitarPermisoBtn.addEventListener('click', () => {
-  messaging.requestPermission()
-    .then(() => {
-      console.log('Permiso de notificación concedido.');
-      mostrarMensaje('Permiso de notificación concedido.', 'success');
-      return messaging.getToken();
+  Notification.requestPermission()
+    .then((permission) => {
+      if (permission === 'granted') {
+        console.log('Permiso de notificación concedido.');
+        mostrarMensaje('Permiso de notificación concedido.', 'success');
+        return messaging.getToken();
+      } else if (permission === 'denied') {
+        console.log('Permiso de notificación denegado.');
+        mostrarMensaje('Permiso de notificación denegado.', 'error');
+      }
     })
     .then((token) => {
-      console.log('Token de registro FCM:', token);
-      // Aquí puedes enviar el token a tu servidor (Google Apps Script)
+      if (token) {
+        console.log('Token de registro FCM:', token);
+        // Aquí puedes enviar el token a tu servidor (Google Apps Script)
+      }
     })
     .catch((error) => {
       console.error('Error al solicitar permiso de notificación:', error);
-      mostrarMensaje('Permiso de notificación denegado o error: ' + error.message, 'error');
+      mostrarMensaje('Error al solicitar permiso de notificación: ' + error.message, 'error');
     });
 });
 

@@ -3,6 +3,7 @@
   "name": "PWA de Prueba FCM",
   "short_name": "PWA FCM",
   "start_url": "/test/",
+  "scope": "/test/",
   "display": "standalone",
   "background_color": "#ffffff",
   "theme_color": "#000000",

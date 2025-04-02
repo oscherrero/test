@@ -1,67 +1,15 @@
 <!DOCTYPE html>
-<html lang="es">
-
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="manifest" href="/test/manifest.json">
-
-    <title>Plantilla con Bootstrap</title>
-   
-    <style>
-        body {
-            display: flex;
-            flex-direction: column;
-            min-height: 100vh; 
-            margin: 0; 
-            padding:0;
-        }
-
-        header {
-            height: 15vh;
-            //
-            background-color: #f0f0f0;
-            padding: 20px;
-        }
-
-        main {
-                        
-            flex: 1; 
-            //
-            padding: 20px;
-        }
-
-        footer {
-            height: 15vh;
-            background-color: #333;
-
-            padding: 10px;
-            text-align: center;
-                position: fixed; /* Fija el footer en la parte inferior */
-                bottom: 0;
-                width: 100%;
-            color: white;
-        }
-    </style>
+  <title>PWA de Prueba FCM</title>
+  <link rel="manifest" href="manifest.json">
 </head>
-
 <body>
-    <header>
-        <h1 id="titulo">Mi Encabezado</h1>
-    </header>
-
-    <main>
-        <p>SUSCRIPCION.</p>
-      <div class='onesignal-customlink-container'></div>
-    </main>
-
-    <footer>
-        <p>2025 Mi Empresa</p>
-    </footer>
-
-
+  <h1>Notificaciones Push de FCM</h1>
+  <button id="solicitarPermiso">Solicitar Permiso de Notificación</button>
+  <script src="scripts/firebase-config.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-messaging-compat.js"></script>
+  <script src="app.js"></script>
 </body>
-
- 
-
 </html>
